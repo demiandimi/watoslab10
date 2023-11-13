@@ -25,7 +25,7 @@
    foaf:age 22 ;
    foaf:img <https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fpcf41calx0y51.jpg> ;
    foaf:knows <http://raw.githubusercontent.com/MichellePG/WebdeDatos/main/foaf.ttl> , <http://users.dcc.uchile.cl/~gtartari/gonzalo.ttl#yo> ;
-   foaf:interest dbr:Anime , dbr:Hololive_Production , dbr:Ado_(singer) , dbr:Cat , dbr:Video_game ; 
+   foaf:interest dbr:Anime , dbr:Hololive_Production  , dbr:Cat , dbr:Video_game ; #, dbr:Ado_(singer)
    social:likesMovie dbr:The_Imitation_Game , dbr:Inglourious_Basterds , dbr:Interstellar_(film) , dbr:Spirited_Away ;
    social:hasSpiritAnimal dbr:Koala ;
    social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
