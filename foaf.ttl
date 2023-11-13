@@ -24,7 +24,7 @@
    foaf:familyName "Rojas" ;
    foaf:age 22 ;
    foaf:img <https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fpcf41calx0y51.jpg> ;
-   foaf:knows <http://raw.githubusercontent.com/MichellePG/WebdeDatos/main/foaf.ttl#mp> , <http://users.dcc.uchile.cl/~ahogan/foaf.ttl>, <http://users.dcc.uchile.cl/~almorale/foaf.ttl#am>, <http://users.dcc.uchile.cl/~goperez/perfil.ttl#gp>;
+   foaf:knows <http://raw.githubusercontent.com/MichellePG/WebdeDatos/main/foaf.ttl#mp> , <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://users.dcc.uchile.cl/~almorale/foaf.ttl#am>, <http://users.dcc.uchile.cl/~goperez/perfil.ttl#gp>;
    foaf:interest dbr:Anime , dbr:Hololive_Production  , dbr:Cat  , <https://dbpedia.org/page/Ado_(singer)> , dbr:Video_game ;
    social:likesMovie dbr:The_Imitation_Game , dbr:Inglourious_Basterds , <https://dbpedia.org/page/Seven_(1995_film)> , dbr:Spirited_Away ;
    social:hasSpiritAnimal dbr:Koala ;
