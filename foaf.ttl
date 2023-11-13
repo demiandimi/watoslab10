@@ -1,0 +1,33 @@
+@base <http://raw.githubusercontent.com/MichellePG/WebdeDatos/main/foaf.ttl> .
+
+@prefix mp: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2023-11-08"^^xsd:date ;
+   dc:title "Michelle's FOAF Profile"@en ;
+   foaf:primaryTopic <#mp> ;
+   dc:creator <#mp> .
+
+<#mp> a foaf:Person ;
+   rdfs:label "Michelle Perez" ;
+   rdfs:comment "Student of the DCC"@es , "Estudiante del DCC"@es ;
+   foaf:name "Michelle Perez" ;
+   foaf:givenName "Michelle" ;
+   foaf:familyName "Perez" ;
+   foaf:age 23 ;
+   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
+   foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab> , <http://users.dcc.uchile.cl/~gtartari/gonzalo.ttl#yo> ;
+   foaf:interest dbr:Anime , dbr:K-pop , dbr:J-pop , dbr:Cat , dbr:Sakamichi_Series ; 
+   social:likesMovie dbr:Wolf_Children , dbr:Swing_Girls , dbr:The_Wind_Rises , <http://dbpedia.org/page/About_Time_(2013_film)> ;
+   social:hasSpiritAnimal dbr:Black_cat ;
+   social:hasFavouritePlatonicSolid dbr:Icosahedron ;
+   foaf:myersBriggs "INFP" ;
+   foaf:nick "Michi" .
